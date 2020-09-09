@@ -108,7 +108,7 @@ export default {
 .city_body .city_list {
   flex: 1;
   overflow: auto;
-  background: #fff5f0;
+  background: #fff;
 }
 .city_body .city_list::-webkit-scrollbar {
   background-color: transparent;
@@ -154,6 +154,7 @@ export default {
 }
 .city_body .city_sort ul li {
   line-height: 30px;
+  border-bottom: 1px solid #eee;
 }
 .city_body .city_index {
   width: 20px;

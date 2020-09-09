@@ -13,6 +13,12 @@
       <a href="#">立即注册</a>
       <a href="#">找回密码</a>
     </div>
+    <div class="copyright">
+      <span class="copyright">
+        © 猫眼电影 客服电话：
+        <a href="#">400-670-5335</a>
+      </span>
+    </div>
   </div>
 </template>
 <script>
@@ -22,7 +28,7 @@ export default {
     handleToBack() {
       this.$router.back();
     }
-  },
+  }
 };
 </script>
 <style scoped>
@@ -61,6 +67,20 @@ export default {
   text-decoration: none;
   margin: 0 5px;
   font-size: 12px;
-  color: #e54847;
+  color: #fe8c00;
+}
+.copyright {
+  margin-top: 20px;
+  padding: 4px 20px;
+  /* background-color: #f8f8f8; */
+  text-align: center;
+  font-size: 14px;
+
+}
+.copyright a {
+  color: #df2d2d;
+  text-decoration: none;
+  outline: 0;
+  font-size: 14px;
 }
 </style>
